@@ -69,7 +69,7 @@ const NavBar = () => {
                 <a href="/#skills">Skills</a>
               </li>
               <li className="menuItem p-3 hover:scale-110">
-                <a href="/#contact">Contact Us</a>
+                <a href="/#contact">Contact Me</a>
               </li>
             </ul>
           ) : null}

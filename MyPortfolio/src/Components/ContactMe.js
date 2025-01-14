@@ -2,11 +2,11 @@ import React from "react";
 import { contactusbg, phone } from "../assets";
 import { AppText } from "../Constants";
 import SectionHeading from "../Shared/SectionHeading";
-function ContactUs() {
+function ContactMe() {
   return (
     <div id="contact" className="flex flex-col justify-center mt-5">
       <div className="flex flex-row  justify-center ">
-        <SectionHeading firstTitle={AppText.Contact} secondTitle={AppText.Us} />
+        <SectionHeading firstTitle={AppText.Contact} secondTitle={AppText.Me} />
         <img src={phone} className="w-[80px] ml-4" alt="" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 justify-evenly px-10 md:px-44">
@@ -53,4 +53,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default ContactMe;

@@ -33,7 +33,7 @@ export const AppText = {
   CompaniesI: "Companies I ",
   WorkedFor: "Worked For",
   Contact: "Contact ",
-  Us: "Us",
+  Me: "Me",
   copywriteText: "Copyright by Li Yuan @2024",
 };
 

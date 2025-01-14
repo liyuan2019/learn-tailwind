@@ -1,7 +1,7 @@
 import "./App.css";
 import { NavBar, Home, Portfolio } from "./Components";
 import AboutMe from "./Components/AboutMe";
-import ContactUs from "./Components/ContactUs";
+import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
 import Skills from "./Components/Skills";
 
@@ -18,9 +18,8 @@ function App() {
       <Skills />
       {/* Portfolio */}
       <Portfolio />
-      {/* Contact Us */}
-      <ContactUs />
-
+      {/* Contact Me */}
+      <ContactMe />
       <Footer />
     </div>
   );
